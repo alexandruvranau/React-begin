@@ -17,18 +17,18 @@ function App() {
   const link = "http://www.google.com"
   
   return (
-    // <Router>
-    //   <div className="App">
-    //     <Navbar />
-    //     <div className='content'>
-    //       <Switch>
-    //         <Route path='/'>
-    //           <Home />
-    //         </Route>
-    //       </Switch>
-    //     </div> 
-    //   </div>
-    // </Router>
+    <Router>
+      <div className="App">
+        <Navbar />
+        {/* <div className='content'>
+          <Switch>
+            <Route path='/'>
+              <Home />
+            </Route>
+          </Switch>
+        </div>  */}
+      </div>
+    </Router>
   );
 }
 
