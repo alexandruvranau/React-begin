@@ -9,6 +9,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import './index.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
+import Welcome from './components/new-components/Welcome';
+import ParentComponent from './components/new-components/ParentComponent';
 
 function App() {
   const title = 'Welcome to the new blog';
@@ -19,14 +21,25 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <ParentComponent/>
+        {/* <Welcome name='Alex'/> */}
+
+
+
+
+
+
+
+
+
+        {/* <Navbar />
         <div className='content'>
           <Switch>
             <Route path='/'>
               <Home />
             </Route>
           </Switch>
-        </div> 
+        </div>  */}
       </div>
     </Router>
   );
