@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import ChildIngredient from './ChildIngredient'
 
 
-  
 
  class ParentPotion extends Component {
 
