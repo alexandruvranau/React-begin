@@ -11,6 +11,8 @@ import './index.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
 import Welcome from './components/new-components/Welcome';
 import ParentComponent from './components/new-components/ParentComponent';
+import UserGreeting from './components/new-components/UserGreeting';
+import ParentPotion from './components/ParentPotion';
 
 function App() {
   const title = 'Welcome to the new blog';
@@ -21,7 +23,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ParentComponent/>
+        {/* <ParentPotion/> */}
+        {/* <UserGreeting/> */}
+        {/* <ParentComponent/> */}
         {/* <Welcome name='Alex'/> */}
 
 
