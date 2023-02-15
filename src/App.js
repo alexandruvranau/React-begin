@@ -13,7 +13,7 @@ import Welcome from './components/new-components/Welcome';
 import ParentComponent from './components/new-components/ParentComponent';
 import UserGreeting from './components/new-components/UserGreeting';
 import ParentPotion from './components/ParentPotion';
-import Cauldron from './components/exerceis 15.02/Cauldron';
+import Cauldron from './components/compExercise15/Cauldron';
 
 function App() {
   const title = 'Welcome to the new blog';
@@ -25,9 +25,16 @@ function App() {
     <Router>
       <div className="App">
         <Cauldron/>
-        <button>Click</button>
-        <ParentPotion/>
-        <UserGreeting/>
+
+
+
+
+
+
+
+
+        {/* <ParentPotion/> */}
+        {/* <UserGreeting/> */}
         {/* <ParentComponent/> */}
         {/* <Welcome name='Alex'/> */}
 

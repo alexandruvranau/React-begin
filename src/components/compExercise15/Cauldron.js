@@ -1,9 +1,5 @@
 import React, { Component } from 'react'
-import Mushroom from 'react'
-import DragonScale from 'react'
-import HolyWater from 'react'
-
-
+import Mushroom from './Mushroom'
 
  class Cauldron extends Component {
 
@@ -11,19 +7,17 @@ import HolyWater from 'react'
     super(props)
   
     this.state = {
-       
+      
     }
   }
-  
+
+
+
 
   render() {
     return (
       <div>
-        <button>Click</button>
-        <Mushroom/>
-        <DragonScale/>
-        <HolyWater/>
-
+        <Mushroom  />
       </div>
     )
   }
